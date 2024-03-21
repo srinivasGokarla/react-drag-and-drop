@@ -189,7 +189,7 @@ background-color: rgb(218, 127, 218);
 @media (min-width: 576px) {
   .container_parent {
     flex-direction: column;
-    align-items: center;
+   
   }
   .small-box {
     width: 100%;
