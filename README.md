@@ -10,7 +10,7 @@ This web application allows users to manage tasks using a board-like interface. 
 
 ## Installation or How to run the app
 I created React Application. So, if you want to run our code then please read the instructions below :
-- Clone our repository `https://github.com/srinivasGokarla/worldref`
+- Clone our repository `https://github.com/srinivasGokarla/react-drag-and-drop`
 
 
 ## Usage
@@ -22,7 +22,7 @@ I created React Application. So, if you want to run our code then please read th
 5. Open your web browser and visit `http://localhost:3000` to view the application.
 
 ## Deployed link
-[link](https://worldref-kappa.vercel.app/)
+[link](https://dragable-ashen.vercel.app/)
 
 ## Technologies Used
 
