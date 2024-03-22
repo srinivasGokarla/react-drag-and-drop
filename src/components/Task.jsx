@@ -28,7 +28,7 @@ const TaskList = ({ tasks }) => {
     evt.preventDefault();
     let element = evt.currentTarget;
     element.classList.add("dragged-over");
-    evt.dataTransfer.dropEffect = "move";
+   // evt.dataTransfer.dropEffect = "move";
   };
 
   const onDragLeave = (evt) => {
@@ -109,8 +109,8 @@ const TaskList = ({ tasks }) => {
                       key={task.id} 
                       id={task.id}
                       draggable
-                      onDragStart={(e) => onDragStart(e)}
-                      onDragEnd={(e) => onDragEnd(e)}
+                      onDragStart={onDragStart}
+                      onDragEnd={onDragEnd}
                     >
                   
                       <div className="card_right">
@@ -145,8 +145,8 @@ const TaskList = ({ tasks }) => {
                       key={task.name}
                       id={task.id}
                       draggable
-                      onDragStart={(e) => onDragStart(e)}
-                      onDragEnd={(e) => onDragEnd(e)}
+                      onDragStart={onDragStart}
+                      onDragEnd={onDragEnd}
                     >
                       <div className="img">
                 
@@ -182,9 +182,9 @@ const TaskList = ({ tasks }) => {
                       className="card"
                       key={task.name}
                       id={task.id}
-                      draggablered
-                      onDragStart={(e) => onDragStart(e)}
-                      onDragEnd={(e) => onDragEnd(e)}
+                      draggable
+                      onDragStart={onDragStart}
+                      onDragEnd={onDragEnd}
                     >
                       <div className="img">
                     
@@ -222,8 +222,8 @@ const TaskList = ({ tasks }) => {
                       key={task.name}
                       id={task.id}
                       draggable
-                      onDragStart={(e) => onDragStart(e)}
-                      onDragEnd={(e) => onDragEnd(e)}
+                      onDragStart={onDragStart}
+                      onDragEnd={onDragEnd}
                     >
                       <div className="img">
                        
